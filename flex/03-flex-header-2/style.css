@@ -43,6 +43,29 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+
+.header {
+  display: flex;
+  padding: 16px;
+}
+
+ul.links {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+div.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+div.nav-right {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 16px;
 }
