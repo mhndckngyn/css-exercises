@@ -5,11 +5,31 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: auto;
+  display: block;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.infographics {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+div.plant {
+  max-width: 200px;
+}
+
+div.plant div.text {
+  text-align: center;
+  text-wrap: wrap;
 }
 
 /* do not edit this footer */
