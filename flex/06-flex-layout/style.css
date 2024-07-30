@@ -25,6 +25,11 @@ input {
   width: 400px;
 }
 
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
 /* solution */
 body {
   display: flex;
